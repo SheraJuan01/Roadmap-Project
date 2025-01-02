@@ -12,7 +12,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
   [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea), [Accordion UI](https://roadmap.sh/projects/accordion),\
   [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown), [Task Tracker](https://roadmap.sh/projects/task-tracker-js),\
   [Github Random Repo](https://roadmap.sh/projects/github-random-repo), [Reddit Client](https://roadmap.sh/projects/reddit-client),\
-  [Temperature Converter](https://roadmap.sh/projects/temperature-converter), [Age Calculator](https://roadmap.sh/projects/age-calculator),
+  [Temperature Converter](https://roadmap.sh/projects/temperature-converter), [Age Calculator](https://roadmap.sh/projects/age-calculator), [Single Page CV](https://roadmap.sh/projects/single-page-cv),
 
 Click any of the images below to view the readme and live demo of the project.
 
