@@ -21,3 +21,8 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/single-page-cv.png" alt="single page cv" />
   </a>
 </p>
+<p align="left">
+  <a href='/Frontend-Projects/01-single-page-cv/'>
+    <img width="48%" src="./assets/images/basic-html-web.png" alt="basic html website" />
+  </a>
+</p>
