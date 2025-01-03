@@ -21,7 +21,7 @@
 
 ### 2. Navigate to the project directory
 
-cd basic-html-website
+cd 2-HtmlWeb
 
 ### 3. Open the index.html file in your browser
 
