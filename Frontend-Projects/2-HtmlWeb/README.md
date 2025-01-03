@@ -4,12 +4,12 @@
 ## Project Overview
 
 ### Project Structure
-    - **Multiple Pages:** This website includes multiple HTML pages, such as:
-    - Homepage
-    - Projects
-    - Articles
-    - Contact
-    - **Navigation Bar:** A consistent navigation bar is present on all pages to allow easy navigation between them.
+- **Multiple Pages:** This website includes multiple HTML pages, such as:
+- Homepage
+- Projects
+- Articles
+- Contact
+- **Navigation Bar:** A consistent navigation bar is present on all pages to allow easy navigation between them.
 - **SEO Meta Tags:** Each page contains essential meta tags for search engine optimization.
 - **Contact Form:** The Contact page includes a form with fields like name, email, and message to allow users to get in touch.
 
