@@ -22,7 +22,7 @@ Click any of the images below to view the readme and live demo of the project.
   </a>
 </p>
 <p align="left">
-  <a href='/Frontend-Projects/01-single-page-cv/'>
+  <a href='/Frontend-Projects/02-basic-html-website/'>
     <img width="48%" src="./assets/images/basic-html-web.png" alt="basic html website" />
   </a>
 </p>
