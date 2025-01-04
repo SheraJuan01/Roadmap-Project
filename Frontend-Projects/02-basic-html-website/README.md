@@ -17,7 +17,7 @@
 
 ### 1. Clone the repository
 
-   git clone <https://github.com/C-Mayonado/Roadmap-Project/tree/main/Frontend-Projects/2-HtmlWeb>
+   git clone <https://github.com/C-Mayonado/Roadmap-Project/tree/main/Frontend-Projects/02-basic-html-website>
 
 ### 2. Navigate to the project directory
 
