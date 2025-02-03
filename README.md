@@ -26,3 +26,8 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/basic-html-web.png" alt="basic html website" />
   </a>
 </p>
+<p align="left">
+  <a href='/Frontend-Projects/03-personal-portfolio/'>
+    <img width="48%" src="./assets/images/personal-portfolio.png" alt="personal portfolio" />
+  </a>
+</p>

@@ -1,0 +1,193 @@
+/* For global stuff */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+    /* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+}
+
+nav > * {
+    width: 490px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+@media (max-width: 1025px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    overflow:hidden;
+}
+
+.name img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li + li::before {
+    content: "/";
+    padding: 0 1rem;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 5rem 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 4rem;
+}
+
+
+/* Main */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+main > :last-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+main > * > h1 {
+    font-family: "Nunito", sans-serif;
+}
+
+main > * a {
+    text-decoration: none;
+}
+
+@media (max-width: 1025px){
+    main {
+        font-size: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Projects */
+.project {
+    padding-top: 1rem;
+}
+
+.project > * {
+    padding: 0 2rem;
+}
+
+.project > *:not(:first-child, :last-child){
+    border-bottom: solid black 1px;
+}
+
+/* Work exp and OS Work */
+.exp {
+    padding: 1rem;
+}
+
+.exp > * > h1, .rm{
+    font-family: "Nunito", sans-serif;
+}
+
+/* Education */
+
+.edu {
+    padding: 1rem;
+}
+
+.edu ul {
+    list-style-type: "- ";
+    margin: 0;
+    padding: 1rem;
+}
+
+.edu li {
+    margin: 0;
+}
+
+/* Reviews */
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container > * > :last-child {
+    color: grey;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 1rem 2rem;
+    padding: 1rem;
+}
+
+
+/* For Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+}
+
+@media (max-width: 1025px) {
+    .review {
+        font-size: 3vw;
+    }
+}
