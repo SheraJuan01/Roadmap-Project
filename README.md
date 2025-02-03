@@ -31,3 +31,8 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/personal-portfolio.png" alt="personal portfolio" />
   </a>
 </p>
+<p align="left">
+  <a href='/Frontend-Projects/04-changelog-component/'>
+    <img width="48%" src="./assets/images/changelog-component.png" alt="changelog component" />
+  </a>
+</p>

@@ -1,0 +1,82 @@
+/* Global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 82rem;
+}
+
+header {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-container ul li:not(:first-child) {
+    margin: 3rem 0;
+}
+
+.list-container > :first-child {
+    text-align: right;
+}
+
+.line-sep {
+    height: 60vh;
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.line-sep .dot {
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    margin: -0.4rem;
+}
+
+.line-sep .line {
+    position: absolute;
+    border: 1px solid black;
+    width: 1px;
+    height: 60vh;
+    left: 25;
+    top: 25;
+}
+
+@media (min-width: 800px) {
+    
+}
