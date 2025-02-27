@@ -36,3 +36,8 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/changelog-component.png" alt="changelog component" />
   </a>
 </p>
+<p align="left">
+  <a href='/Frontend-Projects/05-testimonial-cards/'>
+    <img width="48%" src="./assets/images/testimonial-cards.png" alt="testimonial cards" />
+  </a>
+</p>
