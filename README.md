@@ -41,3 +41,8 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/testimonial-cards.png" alt="testimonial cards" />
   </a>
 </p>
+<p align="left">
+  <a href='/Frontend-Projects/06-datepicker-ui/'>
+    <img width="48%" src="./assets/images/datepicker-ui.png" alt="datepicker ui" />
+  </a>
+</p>
