@@ -1,0 +1,59 @@
+.calendar-container {
+    position: absolute;
+    font-size: 2rem;
+}
+
+.calendar-container::before {
+    content: '';
+    position: absolute;
+    border: 1px solid black;
+    height: 5rem;
+    left: 400px;
+}
+
+.datePlaceHolder, .calendar {
+    border: 1px solid black;
+}
+
+.datePlaceHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datePlaceHolder input[type="date"]{
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.yrSelected {
+    display: flex;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+.yrSelected > *:not(:nth-child(2)) {
+    padding: 0 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    width: 4rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+th {
+    border-bottom: 5px solid black;
+}

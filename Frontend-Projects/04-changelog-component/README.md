@@ -22,5 +22,5 @@ start index.html
 
 ### 4. Project Reference
 
-For more information and detailed guidance on creating a personal portfolio, please visit roadmap.sh.
-[Personal Portfolio](https://roadmap.sh/projects/changelog-component).
+For more information and detailed guidance on creating a Changelog Component, please visit roadmap.sh.
+[Changelog Component](https://roadmap.sh/projects/changelog-component).
